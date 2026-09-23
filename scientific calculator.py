@@ -28,7 +28,7 @@ class ScientificCalculator:
         elif char == '=': 
             try: 
                 expression = self.entry.get().replace("^", "**")
-                # Create a safe evaluation environment
+                
                 safe_dict = {
                     "sqrt": sqrt, 
                     "log": log, 
